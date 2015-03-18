@@ -1,6 +1,11 @@
-# ignore Node.js submodules & temp
+*.DS_Store
+*.sublime-*
+_gh_pages
+bower_components
 node_modules
-target
-
-# ignore editor files
-.brackets.json
+npm-debug.log
+temp
+test/actual
+tmp
+TODO.md
+vendor
