@@ -30,17 +30,13 @@
     "test": "mocha"
   },
   "dependencies": {
-    "chalk": "^0.5.1",
+    "chalk": "^1.0.0",
     "date-time": "^1.0.0",
-    "minimist": "^1.1.0",
-    "pretty-ms": "^1.0.0",
+    "minimist": "^1.1.1",
+    "pretty-ms": "^1.1.0",
     "relative": "^2.0.0",
     "repeat-string": "^1.5.0",
     "text-table": "^0.2.0"
-  },
-  "devDependencies": {
-    "mocha": "*",
-    "should": "*"
   },
   "keywords": [
     "docs",

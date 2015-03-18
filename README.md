@@ -20,7 +20,7 @@ require('time-require');
 
 Generates a table that looks something like:
 
-![image](https://cloud.githubusercontent.com/assets/383994/6710335/45c16e08-cd56-11e4-96b5-cc24832a546a.png)
+![image](https://cloud.githubusercontent.com/assets/383994/6710475/5dfaa1e6-cd57-11e4-9d4e-3bd1fcd8812f.png)
 
 
 ## Contributing
