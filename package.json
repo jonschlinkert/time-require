@@ -1,6 +1,6 @@
 {
   "name": "time-require",
-  "description": "Progress meter for required modules.",
+  "description": "Displays the execution time for Node.js modules loading by hooking require() calls",
   "version": "0.1.0",
   "homepage": "https://github.com/jonschlinkert/time-require",
   "author": {

@@ -1,6 +1,8 @@
 # time-require [![NPM version](https://badge.fury.io/js/time-require.svg)](http://badge.fury.io/js/time-require)
 
-> Progress meter for required modules.
+> Displays the execution time for Node.js modules loading by hooking require() calls
+
+My personal preferences for [time-require](https://github.com/jaguard/time-require). Not sure if it makes sense to publish this as a module. 
 
 ## Install with [npm](npmjs.org)
 
@@ -8,20 +10,17 @@
 npm i time-require --save
 ```
 
-## Running tests
-Install dev dependencies.
-
-```bash
-npm i -d && npm test
-```
-
 ## Usage
 
+Add the following as the very first thing in a module:
+
 ```js
-var requireProgress = require('time-require');
+require('time-require');
 ```
 
-## API
+Generates a table that looks something like:
+
+![image](https://cloud.githubusercontent.com/assets/383994/6710335/45c16e08-cd56-11e4-96b5-cc24832a546a.png)
 
 
 ## Contributing
