@@ -1,7 +1,7 @@
 {
   "name": "time-require",
   "description": "Displays the execution time for Node.js modules loading by hooking require() calls",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/jonschlinkert/time-require",
   "author": {
     "name": "Jon Schlinkert",
@@ -14,10 +14,7 @@
   "bugs": {
     "url": "https://github.com/jonschlinkert/time-require/issues"
   },
-  "license": {
-    "type": "MIT",
-    "url": "https://github.com/jonschlinkert/time-require/blob/master/LICENSE"
-  },
+  "license": "MIT",
   "files": [
     "index.js",
     "lib/"
@@ -30,6 +27,7 @@
     "test": "mocha"
   },
   "dependencies": {
+    "ansi-yellow": "^0.1.1",
     "chalk": "^1.0.0",
     "date-time": "^1.0.0",
     "minimist": "^1.1.1",
