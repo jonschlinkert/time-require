@@ -1,7 +1,7 @@
 {
   "name": "time-require",
   "description": "Displays the execution time for Node.js modules loading by hooking require() calls",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "homepage": "https://github.com/jonschlinkert/time-require",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
   "repository": "jonschlinkert/time-require",
