@@ -18,14 +18,12 @@
     "node": ">=0.10.0"
   },
   "dependencies": {
-    "ansi-colors": "^0.1.0",
-    "date-time": "^1.0.0",
-    "findup-sync": "^0.4.0",
-    "lazy-cache": "^1.0.3",
+    "ansi-colors": "^1.1.0",
+    "date-time": "^2.1.0",
     "minimist": "^1.2.0",
-    "pretty-ms": "^2.1.0",
+    "pretty-ms": "^3.1.0",
     "relative": "^3.0.2",
-    "repeat-string": "^1.5.4",
+    "repeat-string": "^1.6.1",
     "strip-color": "^0.1.0",
     "text-table": "^0.2.0"
   },
