@@ -1,7 +1,7 @@
 {
   "name": "time-require",
   "description": "Displays the execution time for Node.js modules loading by hooking require() calls",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
   "homepage": "https://github.com/jonschlinkert/time-require",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
@@ -16,12 +16,11 @@
   ],
   "main": "index.js",
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=10"
   },
   "dependencies": {
-    "ansi-colors": "^2.0.2",
+    "ansi-colors": "^4.1.1",
     "minimist": "^1.2.0",
-    "strip-color": "^0.1.0",
     "text-table": "^0.2.0"
   },
   "keywords": [
@@ -29,7 +28,7 @@
     "time"
   ],
   "devDependencies": {
-    "gulp-format-md": "^1.0.0"
+    "gulp-format-md": "^2.0.0"
   },
   "verb": {
     "toc": false,
